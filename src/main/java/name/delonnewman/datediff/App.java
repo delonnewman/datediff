@@ -19,7 +19,7 @@ public class App {
         Date d2  = DateParser.parse(argv[1]);
         long res = d2.diff(d1);
 
-        System.out.println("From " + d1 + " to " + d2 + ", output " + res + " days");
+        System.out.println("From " + d1 + " to " + d2 + ": " + res + " days");
         System.exit(0);
     }
 }
